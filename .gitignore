@@ -1,0 +1,4 @@
+.idea
+server/.venv
+server/.env
+database.db

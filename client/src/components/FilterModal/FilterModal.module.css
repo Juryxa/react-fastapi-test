@@ -1,0 +1,82 @@
+.overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal {
+    background: white;
+    padding: 24px;
+    border-radius: 8px;
+    width: 420px;
+    max-width: 90%;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.section {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+}
+
+.section label {
+    display: block;
+    margin: 6px 0;
+    cursor: pointer;
+}
+
+.section h3{
+    font-size: 17px;
+}
+.section label{
+    color: #5a5a5a;
+}
+
+.select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 24px;
+}
+
+.btnReset {
+    padding: 10px 16px;
+    background: #f44336;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btnCancel {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btnSubmit {
+    padding: 10px 24px;
+    background: #0066ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+}

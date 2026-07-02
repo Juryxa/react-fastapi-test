@@ -1,0 +1,18 @@
+.authButtonWrapper{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+.authButton{
+    padding: 10px 20px;
+    border-radius: 6px;
+    border-color: transparent;
+    background-color: orange;
+    cursor: pointer;
+}
+.authButton:hover{
+    background-color: #ffae22;
+}
+.authButton:active{
+    background-color: #d88900;
+}

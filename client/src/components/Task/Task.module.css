@@ -1,0 +1,58 @@
+.taskCard {
+    background: white;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+
+.taskHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.taskTitle {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.priorityBadge {
+    padding: 4px 12px;
+    border-radius: 9999px;
+    font-size: 13px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.priorityHigh { background: #fee; color: #d32f2f; }
+.priorityNormal { background: #fff4e5; color: #f57c00; }
+.priorityLow { background: #e8f5e9; color: #388e3c; }
+
+.taskDescription {
+    margin: 4px 0 0 0;
+    color: #555;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.taskFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.taskFooter span {
+    font-size: 13px;
+    color: #888;
+}
