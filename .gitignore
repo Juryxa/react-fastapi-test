@@ -2,3 +2,4 @@
 server/.venv
 server/.env
 database.db
+server/__pycache__
